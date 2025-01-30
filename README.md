@@ -19,34 +19,35 @@ The purpose of this repository is to:
 
 The repository is organized by sections corresponding to FreeCodeCamp's curriculum:
 
-1. Responsive Web Design
+1. **Responsive Web Design**
     - Survey Form
     - Tribute Page
     - Technical Documentation Page
     - Product Landing Page
     - Personal Portfolio Webpage
 
-2. JavaScript Algorithms and Data Structures
+2. **JavaScript Algorithms and Data Structures**
 
-3. Front End Develoopment Libraries
+3. **Front End Develoopment Libraries**
 
-4. Data Visualization
+4. **Data Visualization**
 
-5. Relational Database Certification
+5. **Relational Database Certification**
 
-6. Back End Development and APIs
+6. **Back End Development and APIs**
 
-7. Quality Assurance
+7. **Quality Assurance**
 
-8. Scientific Computing with Python
+8. **Scientific Computing with Python**
 
-9. Data Analysis with Python
+9. **Data Analysis with Python**
 
-10. Information Security
+10. **Information Security**
 
-11. Machine Learning with Python
+11. **Machine Learning with Python**
 
-12. College Algebra with Python
+12. **College Algebra with Python**
+    
 ## How to Use
 
 You are free to go through all the projects and source code and get an understanding of how I solved each problem. If you're working on FreeCodeCamp, it is highly recommended you create these projects yourself for maximum learning.
