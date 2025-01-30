@@ -20,11 +20,11 @@ The purpose of this repository is to:
 The repository is organized by sections corresponding to FreeCodeCamp's curriculum:
 
 1. Responsive Web Design
-  - Survey Form
-  - Tribute Page
-  - Technical Documentation Page
-  - Product Landing Page
-  - Personal Portfolio Webpage
+    - Survey Form
+    - Tribute Page
+    - Technical Documentation Page
+    - Product Landing Page
+    - Personal Portfolio Webpage
 
 2. JavaScript Algorithms and Data Structures
 
