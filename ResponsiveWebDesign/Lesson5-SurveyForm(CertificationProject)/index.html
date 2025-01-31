@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please take your time to fill up this form</p>
+    <!-- FORM -->
+    <form id="survey-form">
+      <fieldset class="fieldset1">
+      <!-- NAME -->
+      <label id="name-label">Enter your name:
+        <input id="name" type="text" placeholder="What's your name?" required />
+      </label>
+      <!-- EMAIL -->
+      <label id="email-label">Enter your email:
+        <input id="email" type="email" placeholder="What's your email?" required />
+      </label>
+
+      <!-- AGE -->
+      <label id="number-label">Enter your age:
+        <input id="number" type="number" max="100" min="16" placeholder="What's your age?" required />
+      </label>
+      
+      <!-- GENDER -->
+      <fieldset class="legend2">
+        <legend>Gender?</legend>
+        <label><input type="radio" id="male" name="gender" value="male" />Male</label>
+            <label><input type="radio" id="female" name="gender" value="female" />Female</label>
+      </fieldset>
+
+      </fieldset>
+      <fieldset class="fieldset2">
+      <!-- SKILL -->
+      <label for="dropdown" class="skill">Which skill do you want to improve?
+          <select id="dropdown">
+            <option value="">Choose skill</option>
+            <option value="C++">C++</option>
+            <option value="C#">C#</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="HTML,CSS and JavaScript">HTML,CSS and JavaScript</option>
+          </select>
+      </label>
+      
+      <!-- SKILLS -->
+      <fieldset class="legend1">
+      <legend>Which skills are you great at? </legend>
+        <label><input type="checkbox" id="communication" name="skills" value="communication" />Communication</label>
+
+        <label><input type="checkbox" name="skills" id="leadership" value="leadership" />Leadership</label>
+
+        <label><input type="checkbox" name="skills" id="QA" value="QA" />QA</label>
+
+        <label><input type="checkbox" name="skills" id="Mentorship" value="Mentorship" />Mentorship</label>
+
+        <label><input type="checkbox" name="skills" id="None" value="None" />None of the above</label>
+      </fieldset>
+      </fieldset>
+      <fieldset class="fieldset3">
+      <!-- FEEDBACK -->
+      <label for="feedback" class="feedback">Please feel free to provide us feedback of our survey form:
+        <textarea id="feedback" row="3" cols="20"></textarea>
+      </label>
+      </fieldset>
+      <!-- SUBMIT BUTTON -->
+      <input id="submit" type="submit" value="submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+body{
+    width: 600px;
+    height:790px;
+    margin: 20px;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: center;
+    /* align-items:center; */
+    /* justify-content: center; */
+    border: 2px solid white;
+  }
+  
+  h1,
+  #description{
+    text-align: center;
+  }
+  
+  form{
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    /* text-align:center; */
+    /* justify-content: center; */
+    align-items: center;
+    margin:2px;
+    padding: 2px;
+  }
+  
+  .fieldset1{
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    width: 500px;
+    height: 190px;
+    padding-top: 20px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin: auto;
+  }
+  
+  .fieldset2{
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    width: 500px;
+    height: 210px;
+    padding-top: 20px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    align-items: center;
+    margin: auto;
+  }
+  
+  .fieldset3{
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+    width: 500px;
+    height: 90px;
+    padding:20px 0;
+    border-left: none;
+    border-right: none;
+    margin: auto;
+  }
+  
+  #number{
+    margin-left:13px;
+    width:169px;
+  }
+  
+  .dropdown{
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  
+  #skill{
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .feedback{
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+  }
+  
+  textarea{
+    width: 400px;
+    height: 50px;
+  }
+  
+  .legend1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    width:300px;
+    margin-top:10px;
+  }
+  
+  .legend1 label{
+    display: flex;
+    align-items: center;
+  }
+  
+  .legend1 label input[type="checkbox"]{
+    margin-right: 10px;
+  }
+  
+  .legend2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width:150px;
+    margin-top:10px
+  }
+  
+  .legend2 label{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .legend2 label input[type="radio"]{
+    margin-right: 10px;
+  }
